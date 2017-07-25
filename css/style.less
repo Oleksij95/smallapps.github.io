@@ -1,0 +1,501 @@
+/*============    ШРИФТЫ    ===========*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+button:hover,
+button:focus,
+button:visited,
+button:active
+		{
+			outline: none;
+		}
+input:focus{
+	outline: none;
+}
+
+
+/*====================    Header    ====================*/
+header{
+	background-color: #fff;
+	h2{
+		font-size: 30px;
+		margin: 40px 0 47px	0;
+		padding: 0px;
+	}
+	ul{
+		margin: 50px 40px 47px 0px;
+		li{
+			font-size: 14px;
+			a{
+				text-decoration: none;
+				color: #8b9090;
+				&:hover{
+					color: #3c3d42;
+				};
+			}
+		}
+		
+	}
+	#phone{
+		&:before{
+			content:'';
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			background-image: url('../img/phobe_ico.png');
+			background-repeat: no-repeat;
+			vertical-align: -15%;
+			margin-right: 5px;
+		};
+	}
+	#male{
+		display: inline-block;
+		font-size: 14px;
+		margin: 50px 0 47px 25px;
+		&:before{
+			content:'';
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			background-image: url('../img/male_ico.png');
+			background-repeat: no-repeat;
+			vertical-align: -15%;
+			margin-right: 5px;
+		};
+	}
+	.row{
+		margin-right: 0;
+	}
+}
+
+/*===========================    Slider    ========================*/
+section#slider{
+	background-image: url('..//img/slider_bg.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	h1{
+		margin-top: 175px;
+		padding-bottom: 0px;
+		color: #fff;
+		font-size: 36px;
+		z-index: 5;
+		position: relative;
+	}
+	h2{
+		color: #fff;
+		font-size: 36px;
+		margin-top: 5px;
+		margin-bottom: 40px;
+		z-index: 5;
+		position: relative;
+	}
+	p{
+		color: #9dc7d1;
+		line-height: 20px;
+		margin-bottom: 53px;
+		z-index: 5;
+		position: relative;
+	}
+	button{
+		text-transform: uppercase;
+		font-size: 21px;
+		background-color: transparent;
+		padding: 18px 57px 18px 57px;
+		border: 2px solid #96b5b7;
+		border-radius: 50px;
+		margin-bottom: 240px;
+		color: #fff;
+		z-index: 5;
+		position: relative;
+		&:hover{
+			background-color:#b9d8dc;
+		};
+	}
+	.row{
+		margin-right: 0px;
+	}
+	img{
+		position: absolute;
+		margin-left: -400px;
+		margin-top: 97px;
+		z-index: 0;
+	}
+}
+
+/*========================    features    =====================*/
+section#features{
+	h1{
+		margin-top: 100px;
+		margin-bottom: 25px;
+		color: #636c6c;
+	}
+	p{
+		color: #afb8b8;
+		line-height: 25px;
+	}
+	p.text-center{
+		margin-top: 170px;
+	}
+	ul{
+		margin-top: 125px;
+		margin-bottom: 105px;
+		border-right: 2px solid #dbe2e2;
+		width: 256px;
+		li{
+			list-style: none;
+			margin-top: 50px;
+			width: 260px;
+			height: 50px;
+			line-height: 50px;
+		
+			&:hover{
+				border-right: 10px solid #5dca88;
+				img{
+					display: none;
+				}
+			};
+		
+			a{
+				margin-left: 100px;
+				text-decoration: none;
+				color: #afb8b8;
+				&:hover{
+					color: #636c6c;
+				};
+			}
+		}
+		img{
+			margin-right: 15px;
+		}
+	}
+			.love{
+				background-image: url('..//img/love_ico.png');
+				background-repeat: no-repeat;
+				&:hover{
+					background-image: url('..//img/love_ico_hover.png');
+					background-repeat: no-repeat;
+				};
+			}
+
+			.rain{
+				background-image: url('..//img/rain_ico.png');
+				background-repeat: no-repeat;
+				&:hover{
+					background-image:url('../img/rain_ico_hover.png');
+					
+				};
+			}
+			.rectangle{
+				background-image: url('..//img/rectancle_ico.png');
+				background-repeat: no-repeat;
+				&:hover{
+					background-image:url('../img/rectancle_ico_hover.png');
+					background-repeat: no-repeat;
+				};
+			}
+			.tree{
+				background-image: url('..//img/tree_ico.png');
+				background-repeat: no-repeat;
+				&:hover{
+					background-image:url('../img/tree_ico_hover.png');
+					background-repeat: no-repeat;
+				};
+			}
+
+			.portfolio{
+				background-image: url('..//img/portfolio_ico.png');
+				background-repeat: no-repeat;
+				&:hover{
+					background-image:url('../img/portfolio_ico_hover.png');
+					background-repeat: no-repeat;
+				};
+			}
+			h3{
+				color: #636c6c;
+				margin-bottom: 30px;
+				margin-top: 75px;
+			}
+}
+
+/*========================      product_future    ======================*/
+    section#product_future{
+    	background-color: #f2f9fe;
+    	h1{
+    		color: #5dca88;
+    		font-size: 36px;
+    		margin-top: 155px;
+    	}
+    	h3{
+    		color: #8c9494;
+    		font-size: 36px;
+    		margin-top: 43px;
+    	}
+    	p{
+    		color: #8c9494;
+    		margin-top: 45px;
+    		margin-bottom: 55px;
+    	}
+
+    	hr{
+    		margin-top: 25px;
+			width: 100px;
+			border-top:3px solid #8c9494;;
+    	}
+    	button{
+    		margin-bottom: 190px;
+    		color: #636c6c;
+    		text-transform: uppercase;
+    		background-color: transparent;
+    		padding: 15px 52px 15px 52px;
+    		border: 2px solid #aab2b5;
+    		border-radius: 50px;
+    		&:hover{
+    			background-color: #b3cbd4;
+    		};
+    	}
+    	img{
+    		margin-top: 80px;
+    		margin-bottom: 80px;
+    	}
+    }
+
+/*======================    GALLERY    =====================*/
+section#gallery{
+	h1{
+		font-size: 36px;
+		color: #636c6c;
+    	margin-top: 155px;
+    	margin-bottom: 30px;
+	}
+	p{
+		color: #afb8b8;
+		margin-bottom: 32px;
+	}
+	img{
+		display: inline-block;
+		margin-bottom: 45px;
+	}
+
+	.carousel-control.left,.right{
+		background-image: none;
+	}
+	.carousel-control.right{
+		right: -100px;
+		top: 300px;
+		height: 50px;
+	}
+	.carousel-control.left{
+		left:  -100px;
+		top: 300px;
+		height: 50px;
+	}
+	.galler{
+		margin-bottom: 120px;
+	}
+}
+
+
+/*=======================    geature    ======================*/
+
+section#geature{
+	background-color: #f2f9fe;
+	img{
+		margin-top: 75px;
+	}
+	.geature_phone1{
+		z-index: 1;
+		position: absolute;
+	}
+	.geature_phone2{
+			position: relative;
+			margin-left: 180px;
+			z-index: 0;
+	}
+	h1{
+		margin-top: 160px;
+		font-size: 38px;
+		color: #5dca88;
+		line-height: 45px;
+	}
+	hr{
+		margin-top: 25px;
+			width: 100px;
+			border-top:3px solid #8c9494;;
+	}
+	h3{
+		font-size: 36px;
+		color: #8c9494;
+		margin-top: 44px;
+		margin-bottom: 47px;
+		line-height: 45px;
+	}
+	p{
+		color: #8c9494;
+		line-height: 25px;
+		margin-bottom: 77px;
+	}
+	button{
+    		margin-bottom: 190px;
+    		color: #636c6c;
+    		text-transform: uppercase;
+    		background-color: transparent;
+    		padding: 15px 52px 15px 52px;
+    		border: 2px solid #aab2b5;
+    		border-radius: 50px;
+    		&:hover{
+    			background-color: #b3cbd4;
+    		};
+    	}
+	
+}
+
+/*===================    testimonialis    ====================*/
+section#testimonialis{
+	h1{
+		margin-top: 100px;
+		font-size: 36px;
+		color: #636c6c;
+	}
+	.carusel{
+		margin-bottom: 200px;
+	}
+	.h1_slider{
+		font-size: 22px;
+		text-align: center;
+		margin-top: 0;
+		color: #6cce92;
+	}
+	.p_slider{
+		font-size: 24px;
+		text-align: center;
+		margin-top: 35px;
+		margin-bottom: 5px;
+	}
+	.carousel-indicators .active{
+		background-color: #5dca88;
+		margin: 1px;
+	}
+	.carousel-indicators li{
+		background-color: #8c9494;
+		width: 13px;
+		height: 13px;
+	}
+	.carousel-indicators{
+		top: 265px;
+	}
+	.userr{
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		overflow:hidden;
+		margin: 0 auto;
+		margin-top: 35px;
+		margin-bottom: 40px;
+	}
+}
+
+/*=====================    newsletter    =====================*/
+section#newsletter{
+	background-color: #f3f5f5;
+	h1{
+		font-size: 36px;
+		margin-top: 93px;
+		margin-bottom: 57px;
+		color: #8c9494;
+		&:before{
+			content:'';
+			width: 40px;
+			height: 35px;
+			display: inline-block;
+			background-image: url('../img/male_ico2.png');
+			background-repeat: no-repeat;
+			vertical-align: -5%;
+			margin-right: 10px;
+		};
+	}
+	input{
+		padding: 20px 190px 20px 30px;
+		width: 770px;
+		border-radius: 50px;
+		border: 2px solid #bbc3c2;
+		margin-bottom: 123px;
+	}
+	button{
+		padding: 20px 55px 20px 55px;
+		background-color: #5dca88;
+		border-radius: 50px;
+		border: none;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 16px;
+		margin-left: -171px;
+		&:hover{
+			background-color: #30e477;
+		};
+	}
+}
+
+/*=======================    footer    ========================*/
+footer{
+	background-color: #2d312f;
+	h1{
+		margin-top: 75px;
+		margin-bottom: 35px;
+		color: #8c9494;
+		font-size: 22px;
+	}
+	img{
+		margin-bottom: 65px;
+		margin-left: 10px;
+		&:hover{
+			opacity: 0.7;
+		};
+	}
+	ul{
+		color: #8c9494;
+		margin-bottom: 50px;
+		li{
+			a{
+				text-decoration:none;
+				color: #8c9494;
+				&:hover{
+					text-decoration:none;
+					color: #636666;
+				};
+			}
+		}
+	}
+}
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ПОДВАЛ    ===========*/
+
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+
+/*============    	АДАПТИВ    ===========*/
+
+@media(min-width:0px) and (max-width:320px) {
+	
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	
+}
+
+
+
